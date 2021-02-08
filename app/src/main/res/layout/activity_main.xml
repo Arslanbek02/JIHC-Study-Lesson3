@@ -22,7 +22,34 @@
         android:text="Arslanbek"
         android:textSize="20dp"
    />
+    <ImageView
+        android:id="@+id/star_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_star_rate_24"
+        android:layout_toRightOf="@id/rating"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_bookmarks_24"
+        android:layout_toRightOf="@id/sheets"
+        android:layout_below="@+id/rating"
+        android:layout_marginTop="10dp"
+        />
 
+    <ImageView
+        android:id="@+id/book_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_menu_book_24"
+        android:layout_toRightOf="@id/books"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        />
     <TextView
         android:id="@+id/rating"
         android:layout_width="wrap_content"
@@ -66,11 +93,20 @@
         android:text="Today"
         android:textColor="@color/black"
         android:textSize="17dp" />
-
+    <ImageView
+        android:id="@+id/today_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_today_24"
+        android:layout_toRightOf="@id/today"
+        android:layout_below="@+id/books"
+        android:layout_marginTop="10dp"
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image_view"
+        android:layout_marginTop="25dp"
         android:text="Read"
         android:backgroundTint="@color/orange"
         />
